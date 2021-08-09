@@ -12,6 +12,8 @@
         }
         nav {
             border-bottom: 1px solid $gray;
+            font-family: 'roboto_ltregular';
+            font-size: 12px;
             padding-bottom: 10px;
             span {
                 margin-left: 17px;
@@ -167,4 +169,6 @@
     
     .element.active {
         background-color: $yellow;
+        color: #333;
+        transition: .2s all;
     }
